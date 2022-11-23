@@ -1,0 +1,10 @@
+A = "Coffee"
+B = "Hot Chocolate"
+C = "Tea"
+if input coin$ != 2 then exit() endif
+if input drink$ not in [A, B, C] then exit() endif
+if drink$ != A then
+  if input milk$ == True then
+    print(drink$ with milk)
+  endif
+endif
